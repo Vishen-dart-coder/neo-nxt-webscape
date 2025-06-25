@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Apple } from "lucide-react";
+import { Menu, X, Cloud } from "lucide-react";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Apple className="h-8 w-8 text-gray-800" />
+            <Cloud className="h-8 w-8 text-blue-600" />
             <span className="text-2xl font-bold text-gray-800">MacEdge</span>
           </div>
           
@@ -21,7 +21,7 @@ const Navigation = () => {
             <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors">About</a>
             <a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
             <Button variant="default" className="bg-blue-600 hover:bg-blue-700">
-              Get Started
+              Start Free Trial
             </Button>
           </div>
 
@@ -44,7 +44,7 @@ const Navigation = () => {
               <a href="#about" className="block text-gray-700 hover:text-gray-900">About</a>
               <a href="#contact" className="block text-gray-700 hover:text-gray-900">Contact</a>
               <Button variant="default" className="w-full bg-blue-600 hover:bg-blue-700">
-                Get Started
+                Start Free Trial
               </Button>
             </div>
           </div>

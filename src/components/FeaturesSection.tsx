@@ -5,33 +5,33 @@ import { Shield, Cpu, Cloud, Settings, Users, Zap } from "lucide-react";
 const features = [
   {
     icon: Shield,
-    title: "Advanced Security",
-    description: "Enterprise-grade security features to protect your data and privacy with military-grade encryption."
+    title: "Enterprise Security",
+    description: "SOC 2 compliant infrastructure with end-to-end encryption and isolated Mac instances for maximum security."
   },
   {
     icon: Cpu,
-    title: "Performance Optimization",
-    description: "Intelligent system optimization that learns from your usage patterns to boost Mac performance."
+    title: "High-Performance Computing",
+    description: "Latest Mac hardware in the cloud with dedicated CPU, GPU, and memory resources for demanding workloads."
   },
   {
     icon: Cloud,
-    title: "Cloud Integration",
-    description: "Seamlessly sync across all your Apple devices with our intelligent cloud synchronization."
+    title: "Global Infrastructure",
+    description: "Mac instances deployed across multiple regions with low-latency access and 99.9% uptime SLA."
   },
   {
     icon: Settings,
-    title: "System Customization",
-    description: "Deep system customization options that Apple doesn't provide out of the box."
+    title: "Custom Configurations",
+    description: "Pre-configured environments or custom Mac setups tailored to your development and testing needs."
   },
   {
     icon: Users,
-    title: "Team Collaboration",
-    description: "Built-in collaboration tools designed specifically for Mac-based teams and workflows."
+    title: "Team Management",
+    description: "Multi-user access controls, resource allocation, and team collaboration tools for enterprise workflows."
   },
   {
     icon: Zap,
-    title: "Instant Actions",
-    description: "Lightning-fast automation and shortcuts that save hours of your valuable time."
+    title: "Instant Provisioning",
+    description: "Spin up Mac instances in seconds with our API or dashboard. Scale up or down based on demand."
   }
 ];
 
@@ -41,10 +41,10 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Powerful Features for Mac Users
+            Cloud Mac Infrastructure Built for Scale
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the tools and features that make MacEdge the ultimate companion for your Mac
+            Enterprise-grade Mac cloud services for development teams, CI/CD pipelines, and production workloads
           </p>
         </div>
 

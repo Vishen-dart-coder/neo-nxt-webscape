@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Monitor, Zap } from "lucide-react";
+import { ArrowRight, Cloud, Zap } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -10,33 +10,33 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                The Ultimate
-                <span className="text-blue-600 block">Mac Experience</span>
+                Mac Cloud
+                <span className="text-blue-600 block">Infrastructure</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Unlock your Mac's full potential with MacEdge. Professional tools, 
-                seamless workflows, and cutting-edge features designed for power users.
+                Scale your Mac workloads in the cloud. Enterprise-grade Mac infrastructure 
+                for development, testing, and production environments.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-                Download Free Trial
+                Start Free Trial
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="border-gray-300">
-                Watch Demo
+                View Pricing
               </Button>
             </div>
 
             <div className="flex items-center space-x-8 pt-4">
               <div className="flex items-center space-x-2">
-                <Monitor className="h-6 w-6 text-blue-600" />
-                <span className="text-gray-600">macOS Compatible</span>
+                <Cloud className="h-6 w-6 text-blue-600" />
+                <span className="text-gray-600">Cloud Native</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Zap className="h-6 w-6 text-blue-600" />
-                <span className="text-gray-600">Lightning Fast</span>
+                <span className="text-gray-600">Auto-Scaling</span>
               </div>
             </div>
           </div>
@@ -44,16 +44,23 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 shadow-2xl">
               <div className="bg-gray-700 rounded-lg p-6 space-y-4">
-                <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                <div className="flex items-center justify-between">
+                  <span className="text-green-400 text-sm">● ONLINE</span>
+                  <span className="text-gray-400 text-sm">MacEdge Cloud</span>
                 </div>
-                <div className="space-y-2">
-                  <div className="h-4 bg-blue-500 rounded w-3/4"></div>
-                  <div className="h-4 bg-gray-500 rounded w-1/2"></div>
-                  <div className="h-4 bg-green-500 rounded w-2/3"></div>
-                  <div className="h-4 bg-purple-500 rounded w-1/3"></div>
+                <div className="space-y-3">
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">macOS Instances</span>
+                    <span className="text-blue-400">24/24 Active</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">CPU Usage</span>
+                    <span className="text-green-400">78%</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">Auto-scaling</span>
+                    <span className="text-purple-400">Enabled</span>
+                  </div>
                 </div>
               </div>
             </div>
